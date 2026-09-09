@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Chappelly LLC builds mobile apps. Currently in progress: MealNav, a meal planner. Coming soon: GymNav.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#0f172a">
+  <meta property="og:title" content="Chappelly">
+  <meta property="og:description"
+    content="Chappelly LLC builds mobile apps. Currently in progress: MealNav. Coming soon: GymNav.">
+  <meta property="og:type" content="website">
+  <title>Chappelly</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Chappelly home">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <rect width="32" height="32" rx="8" fill="currentColor" opacity="0.12" />
+          <path d="M20.5 10.5a6 6 0 1 0 0 11" fill="none" stroke="currentColor" stroke-width="3"
+            stroke-linecap="round" />
+        </svg>
+        <span class="brand-name">Chappelly</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+        <span class="nav-toggle-bar" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="#apps">Apps</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="top" class="hero">
+      <div class="container">
+        <p class="eyebrow">Chappelly LLC &middot; Est. 2026</p>
+        <h1>We build apps that make everyday routines easier.</h1>
+        <p class="lead">
+          Chappelly is a small, independent studio building focused mobile apps.
+          Our first app, MealNav, is in progress. GymNav is next.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#apps">See our apps</a>
+          <a class="button button-ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="apps" class="section">
+      <div class="container">
+        <h2>Apps</h2>
+        <p class="section-intro">Everything we make, and where it stands.</p>
+
+        <div class="app-grid">
+          <article class="app-card">
+            <div class="app-card-header">
+              <img class="app-icon" src="assets/mealnav-icon.png" alt="" width="64" height="64">
+              <div>
+                <h3>MealNav</h3>
+                <span class="badge badge-progress">In progress</span>
+              </div>
+            </div>
+            <p>
+              A meal planner that turns the plan into the shopping list and the macros
+              into a daily target. Plan your week, let the list build itself, and keep
+              your numbers honest.
+            </p>
+            <ul class="feature-list">
+              <li>Plan meals on a calendar</li>
+              <li>Shopping list generated from your plan</li>
+              <li>Daily macro targets at a glance</li>
+              <li>Import recipes from any link</li>
+            </ul>
+            <!-- <p class="app-links">
+              <a href="https://meal-nav.com" rel="noopener">meal-nav.com</a>
+            </p> -->
+          </article>
+
+          <article class="app-card app-card-soon">
+            <div class="app-card-header">
+              <div class="app-icon app-icon-placeholder" aria-hidden="true">
+                <svg viewBox="0 0 64 64" focusable="false">
+                  <path d="M14 26v12M50 26v12M20 22v20M44 22v20M20 32h24" fill="none" stroke="currentColor"
+                    stroke-width="5" stroke-linecap="round" />
+                </svg>
+              </div>
+              <div>
+                <h3>GymNav</h3>
+                <span class="badge badge-soon">Coming soon</span>
+              </div>
+            </div>
+            <p>
+              A training companion from the same team. Details to come.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container narrow">
+        <h2>About</h2>
+        <p>
+          Chappelly LLC was established in 2026 to build practical mobile apps,
+          starting with tools for planning what you eat and how you train.
+          We keep our apps small in scope and direct in voice: they should do
+          the job and get out of the way.
+        </p>
+        <dl class="facts">
+          <div>
+            <dt>Legal name</dt>
+            <dd>Chappelly LLC</dd>
+          </div>
+          <div>
+            <dt>Established</dt>
+            <dd>2026</dd>
+          </div>
+          <div>
+            <dt>What we do</dt>
+            <dd>Mobile app development and publishing</dd>
+          </div>
+          <div>
+            <dt>Developer name</dt>
+            <dd>Chappelly</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container narrow">
+        <h2>Contact</h2>
+        <p>
+          Questions about Chappelly or one of our apps? Send us an email.
+        </p>
+        <p class="contact-email">
+          <a href="mailto:contact@chappelly.com">contact@chappelly.com</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span data-year>2026</span> Chappelly LLC. All rights reserved.</p>
+      <p class="footer-meta">Established 2026</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

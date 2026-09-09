@@ -1,0 +1,14 @@
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+
+# Local scratch
+.env
+.env.*
+tmp/
